@@ -37,6 +37,11 @@ import { Iloans, ICollections } from '@linosnchena/shared-troopers-packages'
 ```
 https://www.npmjs.com/package/@linosnchena/shared-troopers-packages/v/1.0.0
 
+https://www.npmjs.com/package/@linosnchena/shared-troopers-packages
+https://www.npmjs.com/package/@troopers/nexus-packages
+https://www.npmjs.com/~linosnchena
+https://kwachcode.pro/
+
 ```
 
 ## End
