@@ -32,33 +32,8 @@ export interface IExpenseV2 {
   rank?: string;
   ranked?: number
   benefactor_sum?: number; 
-  username: string,
 }
-
-//  ====================================================|2|
-
-export interface IDeposit {
-  [key: string]: any;
-  id: any;
-  purpose: string | null;
-  naration: string | null;
-  enforcer: string;
-  amount: number;
-  source: string | null;
-  type: string | null;
-  deadline: string | Date | null;
-  destination: string | null;
-  fotox: number;
-  month: number;
-  receiptNumber: number;
-  year: number;
-  created: string;
-  updated: string;
-  rank: number;
-  registrar: string;
-  url: string; // default 'deposits'
-}
-// ====================================================|3|
+// ====================================================|2|
 export interface IShopping {
   [key: string]: any;
   id?: number;
@@ -75,6 +50,29 @@ export interface IShopping {
   registrar: string;
   rank: string | number;
   url: string; // default 'shoppings'
+}
+
+//  ====================================================|3|
+
+export interface IDeposit {
+  [key: string]: any;
+  id: any;
+  description: string | null;
+  enforcer: string;
+  amount: number;
+  source: string | null;
+  type: string | null;
+  deadline: string | Date | null;
+  destination: string | null;
+  fotox: number;
+  month: number;
+  receiptNumber: number;
+  year: number;
+  created: string;
+  updated: string;
+  rank: number;
+  registrar: string;
+  url: string; // default 'deposits'
 }
 
 // ====================================================|4|
@@ -96,7 +94,7 @@ export interface IProperty {
   url: string; // default 'expenses'
 }
 
-// ====================================================|5|
+// ====================================================|6|
 
 export interface IAnalytics {
   [key: string]: any;
@@ -122,7 +120,7 @@ export interface IAnalytics {
   success: number;
   url: string; // default 'analytics'
 }
-// ====================================================|6|
+// ====================================================|7|
 
 export interface IPenalty {
   [key: string]: any;
