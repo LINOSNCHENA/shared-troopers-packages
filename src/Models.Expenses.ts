@@ -31,7 +31,7 @@ export interface IExpenseV2 {
   username: string,
   rank?: string;
   ranked?: number
-  benefactor_sum?: number; 
+  benefactor_sum?: number;
 }
 // ====================================================|2|
 export interface IShopping {
@@ -61,7 +61,7 @@ export interface IDeposit {
   enforcer: string;
   amount: number;
   source: string | null;
-  type: string | null;
+  deposit_type: string | null;
   deadline: string | Date | null;
   destination: string | null;
   fotox: number;
