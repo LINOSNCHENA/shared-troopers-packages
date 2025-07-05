@@ -115,6 +115,5 @@ export interface IAnalyticsStateSmall {
   managerx: string | undefined; // Others
 }
 
-
 // ====================================================|9|
 

@@ -66,6 +66,7 @@ export const loanForm = <ILoan>({
   overdue_penalties: 0
 })
 
+//3
 export const loanSample: ILoan = {
   loaneex: "",
   bankloaneex: "",
@@ -110,7 +111,7 @@ export const loanSample: ILoan = {
   profit_result: 0
 };
 
-//3
+//4
 export const collectionForm = <ICollection>({
   created: new Date(), updated: new Date(),
   closingdate: new Date(), deadlinez: new Date(),

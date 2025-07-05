@@ -1,6 +1,7 @@
 //
 //  Base interface with common fields
 //
+
 export interface IBaseEntity {
   [key: string]: any;
   id?: string | number | undefined;

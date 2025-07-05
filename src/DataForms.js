@@ -61,6 +61,7 @@ exports.loanForm = ({
     overdue2: 0,
     overdue_penalties: 0
 });
+//3
 exports.loanSample = {
     loaneex: "",
     bankloaneex: "",
@@ -104,7 +105,7 @@ exports.loanSample = {
     overdue_penalties: 0,
     profit_result: 0
 };
-//3
+//4
 exports.collectionForm = ({
     created: new Date(), updated: new Date(),
     closingdate: new Date(), deadlinez: new Date(),

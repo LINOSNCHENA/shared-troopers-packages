@@ -1,20 +1,30 @@
 {
   "description": "loans, payments, and transactions",
-  "main": "src/index.ts",
-  "name": "@linosnchena/shared-troopers-packages",
-  "version": "1.0.8",
+  "main": "src/main/app.ts",
+  "name": "@troopers/nexus-packages",
+  "version": "1.0.10",
+  "keywords": [
+    "nexus",
+    "payments",
+    "youpages",
+    "finance",
+    "typescript",
+    "nodejs",
+    "banking",
+    "sdk"
+  ],
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LINOSNCHENA/shared-troopers-packages"
+    "url1": "https://github.com/LINOSNCHENA/shared-troopers-packages",
+    "url": "https://github.com/LINOSNCHENA/Troopers-packages"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
