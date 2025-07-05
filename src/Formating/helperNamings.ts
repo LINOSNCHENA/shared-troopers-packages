@@ -1,7 +1,7 @@
 // import type { IApplicant } from "@/types/Models.Loans";
 // SEVEN
 
-import { IApplicant } from "..";
+import { IApplicant } from "../Models.Loans";
 
 //  1. Reduce length of Name to Two
 export const getOneName = (text: string) => {

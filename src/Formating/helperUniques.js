@@ -7,19 +7,6 @@ exports.getUniqueByLoans = void 0;
 exports.getLatestCollectById = getLatestCollectById;
 exports.uniqueNames = uniqueNames;
 exports.getUniqueByKey = getUniqueByKey;
-// 2. Method to Make IDs
-// export function generateUniqueId() {
-//   const now = new Date();
-//   const year = now.getFullYear().toString().slice(-2); // Last 2 digits of the year
-//   const month = (now.getMonth() + 1).toString().padStart(2, '0');
-//   const day = now.getDate().toString().padStart(2, '0'); // Day (1-31)
-//   const hours = now.getHours().toString().padStart(2, '0');
-//   const minutes = now.getMinutes().toString().padStart(2, '0');
-//   const seconds = now.getSeconds().toString().padStart(2, '0'); // Seconds (0-59)
-//   const dateTimeString = `${year}${month}${day}${hours}${minutes}${seconds}`;
-//   const uniqueId = dateTimeString.split('').sort(() => 0.5 - Math.random()).join('').slice(0, 6);
-//   return uniqueId;
-// }
 // 5. Method to Make IDs
 function getLatestCollectById(collections) {
     const uniqueCollectionsMap = collections.reduce((acc, current) => {

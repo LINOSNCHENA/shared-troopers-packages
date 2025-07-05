@@ -1,7 +1,8 @@
+// Examples
 
-import { ICustoma, ILoan, ICollection, IApplicant } from ".";
 import { formatDateWhole } from "./Formating/helperDates";
 import { IExpense, IDeposit, IShopping } from "./Models.Expenses";
+import { ICustoma, ILoan, ICollection, IApplicant } from "./Models.Loans";
 import { IMaximum, IDataSizes } from "./Models.NotDBased";
 import { ISalary, IEvaluation, IProfile } from "./Models.Workers";
 
@@ -173,11 +174,11 @@ export const expenseSample = <IExpense>({
 })
 
 //6
-export const depositSample = <IDeposit><unknown>({
+export const depositSample = <IDeposit>({
   description: "TestBed", enforcer: "test@yahoo.com", amount: 0, source: "TestsBed",
   destination: "Test-Bank", type: "Test", created: formatDateWhole(new Date()).standard,
   updated: formatDateWhole(new Date()).standard, deadline: formatDateWhole(new Date()).standard, month: 9099, year: 9090,
-  receiptNumber: 9099, fotox: 9099, id: "", rank: 0, registrar: "", url: ""
+  receiptNumber: 9099, fotox: 9099, id: "", rank: 0, registrar: "", url: "", deposit_type: ''
 });
 
 //7

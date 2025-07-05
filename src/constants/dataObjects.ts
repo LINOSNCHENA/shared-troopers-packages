@@ -41,7 +41,7 @@ export const BanksTroopers = <Bank[]>(
   ].sort((a, b) => a.label.localeCompare(b.label))
 );
 
-export const OccupationX = 
+export const OccupationX =
   [
     { value: "accountant", label: "Accountant" },
     { value: "artist", label: "Artist" },
@@ -76,7 +76,7 @@ export const OccupationX =
     { value: "teacher", label: "Teacher" },
     { value: "student", label: "Student" },
   ].sort((a, b) => a.label.toLowerCase().localeCompare(b.label.toLowerCase()))
-;
+  ;
 
 
 export const NO_ADDITIONS = [
