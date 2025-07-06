@@ -2,7 +2,7 @@
   "description": "loans, payments, and transactions",
   "main": "src/main/app.ts",
   "name": "@troopers/nexus-packages",
-  "version": "1.1.2",
+  "version": "1.1.0",
   "keywords": [
     "nexus",
     "payments",

@@ -23,12 +23,11 @@ export interface IExpense {
 
 // ====================================================|2|
 
-export type ExpenseProgress = 'await' | 'allow' | 'rejected' | 'paid';
+export type ExpenseProgress = 'await' | 'allow' | 'rejected' | 'paid' | 'completed' | "pending";
 
 // ====================================================|3|
 export interface IExpenseV2 {
   id?: string;
-
   beneficiary: string;
   amount: number;
   updated: string;
@@ -51,7 +50,7 @@ export interface IDeposit {
   source: string | null;
   deposit_type: string | null;
   destination: string | null;
-  fotox: number;
+  status: string;
   month: number;
   year: number;
   created: string;
@@ -64,6 +63,7 @@ export interface IDeposit {
   amount_source: number;
   receipt_number: number;
   description: string | null;
+  narative: string;
 }
 
 // ====================================================|5|
