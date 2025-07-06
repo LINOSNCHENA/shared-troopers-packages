@@ -1,5 +1,7 @@
-// ====================================================|1|
+//
 // Total (7)
+// ====================================================|1|
+//
 
 export interface IExpense {
   [key: string]: any;
@@ -19,10 +21,14 @@ export interface IExpense {
   categoryx: string; // default 'false'
 }
 
+// ====================================================|2|
+
 export type ExpenseProgress = 'await' | 'allow' | 'rejected' | 'paid';
+
+// ====================================================|3|
 export interface IExpenseV2 {
   id?: string;
-  purpose: string;
+
   beneficiary: string;
   amount: number;
   updated: string;
@@ -32,8 +38,35 @@ export interface IExpenseV2 {
   rank?: string;
   ranked?: number
   benefactor_sum?: number;
+  purpose: string;
+  narative: string;
 }
-// ====================================================|2|
+
+//  ====================================================|4|
+
+export interface IDeposit {
+  [key: string]: any;
+  id: any;
+  enforcer: string;
+  source: string | null;
+  deposit_type: string | null;
+  destination: string | null;
+  fotox: number;
+  month: number;
+  year: number;
+  created: string;
+  updated: string;
+  deadline: string | Date | null;
+  rank: number;
+  registrar: string;
+  url: string; // default 'deposits'
+  amount: number;
+  amount_source: number;
+  receipt_number: number;
+  description: string | null;
+}
+
+// ====================================================|5|
 export interface IShopping {
   [key: string]: any;
   id?: number;
@@ -52,30 +85,7 @@ export interface IShopping {
   url: string; // default 'shoppings'
 }
 
-//  ====================================================|3|
-
-export interface IDeposit {
-  [key: string]: any;
-  id: any;
-  description: string | null;
-  enforcer: string;
-  amount: number;
-  source: string | null;
-  deposit_type: string | null;
-  deadline: string | Date | null;
-  destination: string | null;
-  fotox: number;
-  month: number;
-  receiptNumber: number;
-  year: number;
-  created: string;
-  updated: string;
-  rank: number;
-  registrar: string;
-  url: string; // default 'deposits'
-}
-
-// ====================================================|4|
+// ====================================================|6|
 
 export interface IProperty {
   [key: string]: any;
@@ -94,7 +104,7 @@ export interface IProperty {
   url: string; // default 'expenses'
 }
 
-// ====================================================|6|
+// ====================================================|7|
 
 export interface IAnalytics {
   [key: string]: any;
@@ -120,7 +130,7 @@ export interface IAnalytics {
   success: number;
   url: string; // default 'analytics'
 }
-// ====================================================|7|
+// ====================================================|8|
 
 export interface IPenalty {
   [key: string]: any;
@@ -145,8 +155,5 @@ export interface IPenalty {
   url: string; // default 'penalties'
 }
 
-// ====================================================|7|
-
-
-
+// ====================================================|9|
 
