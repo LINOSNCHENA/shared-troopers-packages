@@ -1,10 +1,10 @@
 // Examples
 
 import { formatDateWhole } from "./Formating/helperDates";
-import { IExpense, IDeposit, IShopping } from "./Models.Expenses";
-import { ICustoma, ILoan, ICollection, IApplicant } from "./Models.Loans";
-import { IMaximum, IDataSizes } from "./Models.NotDBased";
-import { ISalary, IEvaluation, IProfile } from "./Models.Workers";
+import type { IExpense, IDeposit, IShopping } from "./Models.Expenses";
+import type { ICustoma, ILoan, ICollection, IApplicant } from "./Models.Loans";
+import type { IMaximum, IDataSizes } from "./Models.NotDBased";
+import type { ISalary, IEvaluation, IProfile } from "./Models.Workers";
 
 // 1
 export const customaForm = <ICustoma>({
